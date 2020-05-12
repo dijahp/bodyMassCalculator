@@ -1,0 +1,30 @@
+.Gender{
+    width: 150px;
+    background-color: grey;
+    height: 175px;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-content: center;
+}
+.Gender-name{
+   margin-bottom: 20px
+
+}
+.Gender-symbol{
+    font-size: 50px;
+    display: block;
+}
+.female-color:hover{
+    color: #00cdcd;
+}
+.female-color-selected{
+    color: #00cdcd;   
+}
+
+.male-color:hover{
+    color: #0067cd;
+}
+.male-color-selected{
+    color: #0067cd;  
+}

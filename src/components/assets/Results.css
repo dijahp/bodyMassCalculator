@@ -1,0 +1,31 @@
+.Results{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    
+
+}
+.mainBMI{
+    margin-top: 30px;
+}
+.mainBMI h1{
+    font-size: 2.5rem;
+}
+.mainBMI h4{
+text-align: center;    
+}
+
+.health-facts{
+width: 200px;
+margin-top: 30px;
+}
+
+.closeBtn{
+ position: absolute;
+ top:0;
+ right: 0;
+ font-size: 25px;
+}
+

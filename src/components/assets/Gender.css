@@ -1,11 +1,16 @@
 .Gender{
     width: 150px;
-    background-color: grey;
+    background-color: #BBA8A3;
     height: 175px;
     display: grid;
     grid-template-columns: 1fr;
     justify-items: center;
     align-content: center;
+    color: #443e41;
+    border-radius: 10px;
+    -webkit-box-shadow: 10px 10px 13px -1px rgba(0,0,0,0.25);
+    -moz-box-shadow: 10px 10px 13px -1px rgba(0,0,0,0.25);
+    box-shadow: 10px 10px 13px -1px rgba(0,0,0,0.25);
 }
 .Gender-name{
    margin-bottom: 20px
@@ -15,16 +20,25 @@
     font-size: 50px;
     display: block;
 }
+.Gender:hover{
+    background-color: #A89792;
+}
 .female-color:hover{
-    color: #00cdcd;
+    color: #a0aad3;
+
 }
 .female-color-selected{
-    color: #00cdcd;   
+    color: #a0aad3;   
+    
+}
+
+.gen-back{
+    background-color: #A89792;
 }
 
 .male-color:hover{
-    color: #0067cd;
+    color: #a0d3ca;
 }
 .male-color-selected{
-    color: #0067cd;  
+    color: #a0d3ca;  
 }

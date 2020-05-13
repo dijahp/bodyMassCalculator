@@ -9,13 +9,14 @@ class Height extends Component{
 
         return(
             <div className="Height" >
-                                <h1 className="height-name">Height</h1> 
+
                 <div className="height-feet">
                     <input 
                         type="number" 
                         placeholder={this.props.feet}
                         min={3}
                         max={8}
+                        maxLength={2}
                         onChange={this.props.handleFeetChange}/>
                     <h4>Feet</h4>
                 </div>
@@ -25,6 +26,7 @@ class Height extends Component{
                     placeholder={this.props.inches}
                     min={0}
                     max={12}
+
                     onChange={this.props.handleInchesChange}/>
                     <h4>Inches</h4>
                 </div>
